@@ -15,8 +15,7 @@ pipeline {
             steps {
                 script {
                     app = docker.build("ppabba/train-schedule")
-                   
-                    }
+                       }
                 }
             }
         }
