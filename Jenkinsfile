@@ -16,7 +16,6 @@ pipeline {
                 script {
                     app = docker.build("ppabba/train-schedule")
                        }
-                }
             }
         }
         stage('Push Docker Image') {
